@@ -20,6 +20,8 @@
 		445EAE291DEF993E00055615 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE281DEF993E00055615 /* FancyBtn.swift */; };
 		445EAE2B1DEFA1BA00055615 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445EAE2A1DEFA1BA00055615 /* FBSDKLoginKit.framework */; };
 		445EAE2E1DF0FE6700055615 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE2D1DF0FE6700055615 /* FeedVC.swift */; };
+		445EAE321DF10A8300055615 /* honilad script demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 445EAE311DF10A8300055615 /* honilad script demo.otf */; };
+		445EAE341DF1165E00055615 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE331DF1165E00055615 /* CircleView.swift */; };
 		54262B83212A273A4CD3A39F /* Pods_PicMoodShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349EC8FD7FC954066F168D1 /* Pods_PicMoodShare.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		445EAE2A1DEFA1BA00055615 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		445EAE2C1DEFB5E500055615 /* PicMoodShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicMoodShare.entitlements; sourceTree = "<group>"; };
 		445EAE2D1DF0FE6700055615 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		445EAE311DF10A8300055615 /* honilad script demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "honilad script demo.otf"; sourceTree = "<group>"; };
+		445EAE331DF1165E00055615 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				445EAE1C1DECFC9A00055615 /* Controller */,
 				445EAE081DECF6DF00055615 /* AppDelegate.swift */,
 				445EAE0C1DECF6DF00055615 /* Main.storyboard */,
+				445EAE311DF10A8300055615 /* honilad script demo.otf */,
 				445EAE111DECF6DF00055615 /* LaunchScreen.storyboard */,
 				445EAE141DECF6DF00055615 /* Info.plist */,
 				445EAE1A1DECF84B00055615 /* GoogleService-Info.plist */,
@@ -110,6 +115,7 @@
 				445EAE241DEEB7D900055615 /* RoundBtn.swift */,
 				445EAE261DEF977400055615 /* FancyField.swift */,
 				445EAE281DEF993E00055615 /* FancyBtn.swift */,
+				445EAE331DF1165E00055615 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445EAE321DF10A8300055615 /* honilad script demo.otf in Resources */,
 				445EAE131DECF6DF00055615 /* LaunchScreen.storyboard in Resources */,
 				445EAE1B1DECF84B00055615 /* GoogleService-Info.plist in Resources */,
 				445EAE101DECF6DF00055615 /* Assets.xcassets in Resources */,
@@ -277,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445EAE341DF1165E00055615 /* CircleView.swift in Sources */,
 				445EAE271DEF977400055615 /* FancyField.swift in Sources */,
 				445EAE0B1DECF6DF00055615 /* SignInVC.swift in Sources */,
 				445EAE251DEEB7D900055615 /* RoundBtn.swift in Sources */,
