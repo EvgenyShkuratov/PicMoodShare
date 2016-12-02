@@ -19,6 +19,7 @@
 		445EAE271DEF977400055615 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE261DEF977400055615 /* FancyField.swift */; };
 		445EAE291DEF993E00055615 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE281DEF993E00055615 /* FancyBtn.swift */; };
 		445EAE2B1DEFA1BA00055615 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445EAE2A1DEFA1BA00055615 /* FBSDKLoginKit.framework */; };
+		445EAE2E1DF0FE6700055615 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE2D1DF0FE6700055615 /* FeedVC.swift */; };
 		54262B83212A273A4CD3A39F /* Pods_PicMoodShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349EC8FD7FC954066F168D1 /* Pods_PicMoodShare.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		445EAE281DEF993E00055615 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		445EAE2A1DEFA1BA00055615 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		445EAE2C1DEFB5E500055615 /* PicMoodShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicMoodShare.entitlements; sourceTree = "<group>"; };
+		445EAE2D1DF0FE6700055615 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				445EAE0A1DECF6DF00055615 /* SignInVC.swift */,
+				445EAE2D1DF0FE6700055615 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				445EAE0B1DECF6DF00055615 /* SignInVC.swift in Sources */,
 				445EAE251DEEB7D900055615 /* RoundBtn.swift in Sources */,
 				445EAE091DECF6DF00055615 /* AppDelegate.swift in Sources */,
+				445EAE2E1DF0FE6700055615 /* FeedVC.swift in Sources */,
 				445EAE201DEE689D00055615 /* FancyView.swift in Sources */,
 				445EAE231DEEB61000055615 /* Constants.swift in Sources */,
 				445EAE291DEF993E00055615 /* FancyBtn.swift in Sources */,
