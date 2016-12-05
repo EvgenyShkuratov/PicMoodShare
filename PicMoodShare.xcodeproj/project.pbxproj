@@ -24,6 +24,7 @@
 		445EAE341DF1165E00055615 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE331DF1165E00055615 /* CircleView.swift */; };
 		445EAE361DF21E4F00055615 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE351DF21E4F00055615 /* PostCell.swift */; };
 		445EAE391DF5057C00055615 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE381DF5057C00055615 /* DataService.swift */; };
+		445EAE3B1DF61D1A00055615 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAE3A1DF61D1A00055615 /* Post.swift */; };
 		54262B83212A273A4CD3A39F /* Pods_PicMoodShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349EC8FD7FC954066F168D1 /* Pods_PicMoodShare.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		445EAE331DF1165E00055615 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		445EAE351DF21E4F00055615 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		445EAE381DF5057C00055615 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		445EAE3A1DF61D1A00055615 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		445EAE1E1DECFCAC00055615 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				445EAE3A1DF61D1A00055615 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				445EAE341DF1165E00055615 /* CircleView.swift in Sources */,
 				445EAE271DEF977400055615 /* FancyField.swift in Sources */,
 				445EAE0B1DECF6DF00055615 /* SignInVC.swift in Sources */,
+				445EAE3B1DF61D1A00055615 /* Post.swift in Sources */,
 				445EAE251DEEB7D900055615 /* RoundBtn.swift in Sources */,
 				445EAE091DECF6DF00055615 /* AppDelegate.swift in Sources */,
 				445EAE391DF5057C00055615 /* DataService.swift in Sources */,
