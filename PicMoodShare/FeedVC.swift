@@ -14,8 +14,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageAdd: CircleView!
-    @IBOutlet weak var captionField: FancyField!
-    
+    @IBOutlet weak var captionField: FancyField!    
     
     var posts = [Post]()
     var imagePicker: UIImagePickerController!
@@ -33,6 +32,9 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
         imagePicker.allowsEditing = true
         
         DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
+            
+        self.posts = [] // new line...to avoid duplicating!
+            
             if let snapshots = snapshot.children.allObjects as? [FIRDataSnapshot] {
                 for snap in snapshots {
                     print("SNAP: \(snap)")
@@ -59,11 +61,10 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
             
             if let img = FeedVC.imageCache.object(forKey: post.imageURL as NSString) {
                 cell.configureCell(post: post, image: img)
-                return cell
             } else {
                 cell.configureCell(post: post)
-                return cell
             }
+            return cell
         } else {
             return PostCell()
         }
